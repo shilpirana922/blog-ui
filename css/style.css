@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: ui-sans-serif,system-ui,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","Noto Sans",sans-serif;
 }
 
 html {
@@ -17,6 +17,7 @@ li {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 h1 {
@@ -24,7 +25,10 @@ h1 {
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
+}
+.black{
+    color: #222;
 }
 
 header {
@@ -129,6 +133,7 @@ main .profile-container .profile .text{
     padding:0.3rem 1.5rem;
     background-color: #fd735a;
     border-radius: 0.2rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 main p{
@@ -140,24 +145,25 @@ main .content p{
    color:#5b5963;  
 }
 main .content h4{
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: 600;
     color: #5b5963;
     margin: 2rem 0;
 }
 main .content .content-img-container{
     width: 100%;
-    height:35rem;
-    background: url(https://c1.wallpaperflare.com/preview/427/745/192/notebook-natural-laptop-macbook.jpg)
+    height:55rem;
+    background: url(https://redefinestatus.com/_next/image?url=https%3A%2F%2Fwww.notion.so%2Fimage%2Fhttps%253A%252F%252Fs3-us-west-2.amazonaws.com%252Fsecure.notion-static.com%252F569cc3d3-0559-487b-a125-eb72a4d91ab8%252FScreen_Shot_2023-03-08_at_10.16.09_PM.png%3Ftable%3Dblock%26id%3Da24b96b7-d44c-429d-9241-9bc1c046c223%26cache%3Dv2&w=3840&q=75)
     no-repeat center center / cover;
 }
 blockquote{
-    font-size: 1.4rem;
+    font-size: 2.0rem;
     padding:1rem 2.8rem;
     line-height: 1.6;
     font-weight: 300;
     box-shadow: inset 0.5rem 0 0 #fd735a;
     background-color: #f5f5f5;
+    font-style: italic;
 }
 .tags{
     display: flex;
@@ -213,6 +219,7 @@ blockquote{
 .cards .card-container{
     cursor: pointer;
     transition: all 0.4s ease;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .cards .card-container .img-holder{
     max-width: 100%;
@@ -251,7 +258,7 @@ blockquote{
     box-shadow: 0 0 0 0.3rem grey;
 }
 .cards .card-container .card-text p{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 .articles .button{
     margin: 0 auto;
@@ -286,4 +293,8 @@ footer{
     letter-spacing: 1px;
     color:white;
     margin:2rem 0;
+}
+
+.link{
+    text-decoration: underline;
 }
